@@ -1,9 +1,17 @@
-
+import Chai from "./chai"
 function App() {
   
 
   return (
-    <h1>~REACT BITCH~</h1>
+    <>
+    <Chai/>
+      <h1>~REACT BITCH~</h1>
+      <h3>error</h3>
+      <p>Lorem, ipsum dolor.</p>
+    
+    </>
+    
+    
   )
 }
 
