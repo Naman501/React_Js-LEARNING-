@@ -4,6 +4,14 @@ import App from './App.jsx'
 import './index.css'
 
 
+// function App(){
+//   const username = "LATTIM_666"
+
+//   return(
+
+//   )
+// }
+
 // function MyApp ( ){
 // return(
 //   <div>
@@ -12,10 +20,22 @@ import './index.css'
 // )
 // }
 
+const anotherUser = " NAMAN"
+
+const reactElement = React.createElement(
+'a',
+{href:"https://google.com",target:'_blank',},
+'Click Bitch',
+anotherUser
+)
+
+
 const anotherElement= ( 
   <a href="https://google.com">Visit Google</a>
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-anotherElement 
+// anotherElement 
+reactElement
+
 )
