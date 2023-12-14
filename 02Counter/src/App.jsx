@@ -15,7 +15,11 @@ function App() {
     console.log("cicked",counter);
     // counter=counter+1
     // console.log("value Added :",Math.random())
-    setCounter(counter+1)
+    setCounter((prevCounter)=>prevCounter+1)
+    setCounter((prevCounter)=>prevCounter+1)
+    setCounter((prevCounter)=>prevCounter+1)
+    // setCounter((prevCounter)=>prevCounter+1)
+    
    
   
     }
