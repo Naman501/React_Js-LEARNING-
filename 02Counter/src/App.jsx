@@ -17,7 +17,7 @@ function App() {
     // console.log("value Added :",Math.random())
     setCounter((prevCounter)=>prevCounter+1)
     setCounter((prevCounter)=>prevCounter+1)
-    setCounter((prevCounter)=>prevCounter+1)
+    // setCounter((prevCounter)=>prevCounter+1)
     // setCounter((prevCounter)=>prevCounter+1)
     
    
@@ -43,7 +43,7 @@ function App() {
       <br />
         <button
         onClick={removeValue}>Remove Value {counter}</button>
-        <br />
+        <br/>
         <p>Footer {counter}</p>
       
   </>

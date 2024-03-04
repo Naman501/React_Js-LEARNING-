@@ -18,7 +18,7 @@ function App() {
     if(numberAllowed) str+="0123456789"
     if(symbolAllowed) str +="!@#$%^&*()_+[]~`{}"
     for(let i=1;i<length;i++){
-      pass+=str.charAt(Math.floor(Math.random()*str.length))
+      pass+=str.charAt(Math.floor(Math.random()*str.length+1))
     
     }
     setPassword(pass)
@@ -44,7 +44,7 @@ function App() {
     <>
     {/* <h1 className='text-5xl text-center my-3.5 text-pink-400'>Password Generator</h1> */}
     <div className='w-full max-w-md mx-auto shadow-md h-32  rounded-lg px-4 my-8 text-center text-pink-500 bg-gray-200'>
-    <h1 className='text-4xl text-center my-3.5 text-pink-600'>Password Generator</h1>
+    <h1 className='text-4xl text-center my-3.5 text-magenta-300'>Password Generator</h1>
 
       <div className='flex shadow rounded-lg overflow-hidden mb-4'>
       <input type="text"
